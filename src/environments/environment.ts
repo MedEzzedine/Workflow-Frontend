@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  url:"/api/"
+  url: "http://localhost:8081/workflow/",
 };

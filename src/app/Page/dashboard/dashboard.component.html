@@ -1,12 +1,15 @@
 <div class="panel-header panel-header-lg">
-    <canvas baseChart id="bigDashboardChart"
-                [datasets]="lineBigDashboardChartData"
-                [labels]="lineBigDashboardChartLabels"
-                 [colors]="lineBigDashboardChartColors"
-                [options]="lineBigDashboardChartOptions"
-                [chartType]="lineBigDashboardChartType"
-                (chartHover)="chartHovered($event)"
-                (chartClick)="chartClicked($event)"></canvas>
+  <canvas
+    baseChart
+    id="bigDashboardChart"
+    [datasets]="lineBigDashboardChartData"
+    [labels]="lineBigDashboardChartLabels"
+    [colors]="lineBigDashboardChartColors"
+    [options]="lineBigDashboardChartOptions"
+    [chartType]="lineBigDashboardChartType"
+    (chartHover)="chartHovered($event)"
+    (chartClick)="chartClicked($event)"
+  ></canvas>
 </div>
 
 <div class="main-content">
@@ -111,28 +114,16 @@
     </div>
   </div> -->
 
+  <div class="d-flex justify-content-center">
+    <div class="logo">
+      <a class="simple-text logo-mini">
+        <div class="logo-img">
+          <img src="./assets/img/dash.png" />
+        </div>
+      </a>
+    </div>
+  </div>
 
-
-
-  <div  class="d-flex justify-content-center" >
-  <div class="logo">
-    <a  class="simple-text logo-mini">
-      <div class="logo-img">
-          <img src="./assets/img/dash.png" class="w-75 mt-" />
-      </div>
-      
-    </a>
-  
-</div> </div>
-
-
-
-
-
-
-
-
-  
   <!-- <div class="row">
     <div class="col-md-6">
       <div class="card  card-tasks">
